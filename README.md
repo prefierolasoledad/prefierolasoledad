@@ -11,7 +11,7 @@
 
 - 📫 How to reach me **karanbhatt9900@gmail.com**
 
-- 📄 Know about my experiences [https://karan-bhatt-portfolio.netlify.app/resume.pdf](https://drive.google.com/file/d/1v3t-jjWHxyYQyu2GD_R2WiNJq_ziiMSU/view?usp=sharing)
+- 📄 Know about my experiences check my [RESUME](https://karan-bhatt-portfolio.netlify.app/)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
