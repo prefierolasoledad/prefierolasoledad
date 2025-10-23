@@ -5,9 +5,9 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=prefierolasoledad" alt="prefierolasoledad" /></a> </p>
 
-- 🔭 I’m currently working on [ADVENTROZ](https://adventroz.com)
+- 🔭 I’m currently working at [ADVENTROZ](https://adventroz.com)
 
-- 🌱 I’m currently learning **Pytorch**
+- 🌱 I’m currently learning **CI/CD Pipelines**
 
 - 📫 How to reach me **karanbhatt9900@gmail.com**
 
