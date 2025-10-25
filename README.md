@@ -7,7 +7,7 @@
 
 - 🔭 I’m currently working at [ADVENTROZ](https://adventroz.com)
 
-- 🌱 I’m currently learning **CI/CD Pipelines**
+- 🌱 I’m currently learning **Docker**
 
 - 📫 How to reach me **karanbhatt9900@gmail.com**
 
