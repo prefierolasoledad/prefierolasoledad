@@ -27,4 +27,4 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats-pi-mauve-35.vercel.app/api?username=prefierolasoledad&show_icons=true&locale=en" alt="prefierolasoledad" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=prefierolasoledad&" alt="prefierolasoledad" /></p>
+<p><img align="center" src="https://streak-stats.demolab.com?user=prefierolasoledad" alt="prefierolasoledad" /></p>
