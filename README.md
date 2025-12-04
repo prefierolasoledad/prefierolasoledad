@@ -51,8 +51,6 @@
 
 ### 🚀 Featured Projects
 <p align="center"> 
-  <!-- [![DynamicPortfolio](https://github-readme-stats-pi-mauve-35.vercel.app/api/pin/?username=prefierolasoledad&repo=DynamicPortfolio&theme=radical)](https://github.com/prefierolasoledad/DynamicPortfolio)
-  [![iosc-website](https://github-readme-stats-pi-mauve-35.vercel.app/api/pin/?username=prefierolasoledad&repo=iosc-website&theme=radical)](https://github.com/prefierolasoledad/iosc-website) -->
   <a href="https://github.com/prefierolasoledad/DynamicPortfolio"><img src="https://github-readme-stats-pi-mauve-35.vercel.app/api/pin/?username=prefierolasoledad&repo=DynamicPortfolio&theme=radical"/></a>
   <a href="https://github.com/prefierolasoledad/iosc-website"><img src="https://github-readme-stats-pi-mauve-35.vercel.app/api/pin/?username=prefierolasoledad&repo=iosc-website&theme=radical"/></a>
   
