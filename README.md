@@ -36,7 +36,7 @@
 <img src="https://skillicons.dev/icons?i=nodejs,express,java,cpp,c,python,mysql,mongodb,firebase" />
 
 #### 🐳 DevOps
-<img src="https://skillicons.dev/icons?i=docker,git,github,nginx,redis" />
+<img src="https://skillicons.dev/icons?i=docker,nginx,redis" />
 
 #### ☁️ Cloud
 <img src="https://skillicons.dev/icons?i=aws,gcp" />
@@ -45,7 +45,7 @@
 <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,anaconda" />
 
 #### 🛠️ Tools
-<img src="https://skillicons.dev/icons?i=vscode,idea,androidstudio,postman,figma,npm" />
+<img src="https://skillicons.dev/icons?i=vscode,idea,androidstudio,git,github" />
 
 ---
 
