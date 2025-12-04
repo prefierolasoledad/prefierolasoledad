@@ -58,12 +58,12 @@
 
 ### 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats-pi-mauve-35.vercel.app/api?username=prefierolasoledad&show_icons=true&theme=radical" alt="GitHub Stats" width="525"/>
-  <img src="https://github-readme-stats-pi-mauve-35.vercel.app/api/top-langs/?username=prefierolasoledad&layout=compact&theme=radical" alt="Top Languages" width="400"/>
+  <img src="https://github-readme-stats-pi-mauve-35.vercel.app/api?username=prefierolasoledad&show_icons=true&theme=radical" alt="GitHub Stats" width="395"/>
+  <img src="https://github-readme-stats-pi-mauve-35.vercel.app/api/top-langs/?username=prefierolasoledad&layout=compact&theme=radical" alt="Top Languages" width="300"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=prefierolasoledad&theme=radical" alt="GitHub Streak" width="525"/>
+  <img src="https://streak-stats.demolab.com/?user=prefierolasoledad&theme=radical" alt="GitHub Streak" width="395"/>
 </p>
 
 ---
