@@ -36,7 +36,7 @@
 <img src="https://skillicons.dev/icons?i=nodejs,express,java,cpp,c,python,mysql,mongodb,firebase" />
 
 #### 🐳 DevOps
-<img src="https://skillicons.dev/icons?i=docker,k8s,nginx,redis" />
+<img src="https://skillicons.dev/icons?i=docker,nginx,redis" />
 
 #### ☁️ Cloud
 <img src="https://skillicons.dev/icons?i=aws,gcp" />
