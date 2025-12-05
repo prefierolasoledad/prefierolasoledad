@@ -30,22 +30,25 @@
 ### 🛠️ Languages & Tools
 
 #### 🌐 Frontend
-<img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,threejs,bootstrap,tailwind,redux" />
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,threejs,bootstrap,tailwind,redux,flutter,dart" />
 
 #### ⚙️ Backend
 <img src="https://skillicons.dev/icons?i=nodejs,express,java,cpp,c,python,mysql,mongodb,firebase" />
 
 #### 🐳 DevOps
-<img src="https://skillicons.dev/icons?i=docker,nginx,redis" />
+<img src="https://skillicons.dev/icons?i=docker,k8s,nginx,redis" />
 
 #### ☁️ Cloud
 <img src="https://skillicons.dev/icons?i=aws,gcp" />
 
 #### 🤖 Machine Learning
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,anaconda" />
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,anaconda" />
 
 #### 🛠️ Tools
 <img src="https://skillicons.dev/icons?i=vscode,idea,androidstudio,git,github" />
+
+#### ⚡ Server & Production
+<img src="https://skillicons.dev/icons?i=linux,postgres,bash,netlify,vercel" />
 
 ---
 
