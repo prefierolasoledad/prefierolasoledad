@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Karan Bhatt</h1>
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F75C7E&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;DevOps+%7C+CI%2FCD+Enthusiast;Cloud+%26+Docker+Lover" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F75C7E&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;Building+Scalable+Apps+%26+Docker;AI/ML+%26+Intelligent+Systems" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@
 
 ### 👨‍💻 About Me
 - 🔭 Currently working at [ADVENTROZ](https://adventroz.com)  
-- 🌱 Learning **Docker & CI/CD pipelines**  
+- 🌱 Exploring **AI/ML models & Cloud deployment**  
 - 📫 Reach me at **karanbhatt9900@gmail.com**  
 - 📄 Check out my [Resume](https://karan-bhatt-portfolio.netlify.app/resume.pdf)  
 
@@ -35,9 +35,6 @@
 #### ⚙️ Backend
 <img src="https://skillicons.dev/icons?i=nodejs,express,java,cpp,c,python,mysql,mongodb,firebase" />
 
-#### 🐳 DevOps
-<img src="https://skillicons.dev/icons?i=docker,nginx,redis" />
-
 #### ☁️ Cloud
 <img src="https://skillicons.dev/icons?i=aws,gcp" />
 
@@ -48,7 +45,7 @@
 <img src="https://skillicons.dev/icons?i=vscode,idea,androidstudio,git,github" />
 
 #### ⚡ Server & Production
-<img src="https://skillicons.dev/icons?i=linux,postgres,bash,netlify,vercel" />
+<img src="https://skillicons.dev/icons?i=linux,postgres,bash,netlify,vercel,nginx,redis,docker" />
 
 ---
 
@@ -56,7 +53,6 @@
 <p align="center"> 
   <a href="https://github.com/prefierolasoledad/DynamicPortfolio"><img src="https://github-readme-stats-pi-mauve-35.vercel.app/api/pin/?username=prefierolasoledad&repo=DynamicPortfolio&theme=radical"/></a>
   <a href="https://github.com/prefierolasoledad/iosc-website"><img src="https://github-readme-stats-pi-mauve-35.vercel.app/api/pin/?username=prefierolasoledad&repo=iosc-website&theme=radical"/></a>
-  
 </p>
 
 ---
@@ -74,4 +70,4 @@
 ---
 
 ### ⚡ Core Focus
-💡 I love automating workflows with **CI/CD pipelines** and building scalable apps with **Docker + Cloud**.
+💡 I love building intelligent systems with **AI/ML** and deploying scalable apps on **Cloud + Docker + Nginx + Redis**.
