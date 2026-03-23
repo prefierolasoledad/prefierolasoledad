@@ -12,7 +12,7 @@
 ---
 
 ### 👨‍💻 About Me
-- 🔭 Currently working at [ADVENTROZ](https://adventroz.com)  
+- 🔭 Currently working at [ADVENTROZ](https://drive.google.com/file/d/1KqksVSekL3yrKpturye_wK6J0iHyDQue/view?usp=sharing)  
 - 🌱 Exploring **AI/ML models & Cloud deployment**  
 - 📫 Reach me at **karanbhatt9900@gmail.com**  
 - 📄 Check out my [Resume](https://karan-bhatt-portfolio.netlify.app/resume.pdf)  
