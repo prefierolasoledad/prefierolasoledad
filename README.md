@@ -51,7 +51,7 @@
 
 ### 🚀 Featured Projects
 <p align="center"> 
-  <a href="https://github.com/prefierolasoledad/veda_ai"><img src="https://github-readme-stats-pi-mauve-35.vercel.app/api/pin/?username=prefierolasoledad&repo=veda_ai&theme=radical"/></a>
+  <a href="https://github.com/prefierolasoledad/Lumina_AI"><img src="https://github-readme-stats-pi-mauve-35.vercel.app/api/pin/?username=prefierolasoledad&repo=Lumina_AI&theme=radical"/></a>
   <a href="https://github.com/prefierolasoledad/koders-task-platform"><img src="https://github-readme-stats-pi-mauve-35.vercel.app/api/pin/?username=prefierolasoledad&repo=koders-task-platform&theme=radical"/></a>
 </p>
 
