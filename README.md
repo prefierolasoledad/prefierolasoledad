@@ -12,7 +12,8 @@
 ---
 
 ### 👨‍💻 About Me
-- 🔭 SDE Intern at [GSX Solutions](https://gsxsolutions.com)  
+- 🔭 SDE Intern at [GSX Solutions](https://gsxsolutions.com)
+- 🚀 Built [Adventroz](https://drive.google.com/file/d/1KqksVSekL3yrKpturye_wK6J0iHyDQue/view?usp=sharing) — a travel platform I co-founded and developed as the lead engineer
 - 🌱 Exploring **AI/ML models & Cloud deployment**  
 - 📫 Reach me at **karanbhatt9900@gmail.com**  
 - 📄 Check out my [Resume](https://karan-bhatt-portfolio.netlify.app/resume.pdf)  
