@@ -40,7 +40,7 @@
 
 ### 👨‍💻 About Me
 
-- 🔭 SDE Intern at **GSX Solutions**, working on backend systems using Node.js, PostgreSQL, Redis, Docker, and WebSockets
+- 🔭 SDE Intern at [GSX Solutions](https://gsxsolutions.com), working on backend systems using Node.js, PostgreSQL, Redis, Docker, and WebSockets
 - 🚀 Co-founded **Adventroz** and led the engineering of its backend architecture and microservices
 - ⚙️ Interested in **Backend Engineering, Distributed Systems, Databases, and System Design**
 - 🌱 Currently deepening my knowledge of **PostgreSQL, Redis, Kafka, Distributed Systems, and AWS**
