@@ -1,6 +1,6 @@
-<h1 align="center">Hi 👋, I'm Karan Bhatt</h1>
+<!-- <h1 align="center">Hi 👋, I'm Karan Bhatt</h1>
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F75C7E&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;Building+Scalable+Apps+%26+Docker;AI/ML+%26+Intelligent+Systems" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F75C7E&center=true&vCenter=true&width=435&lines=Backend+Engineer;Building+Scalable+Apps+%26+Docker;AI/ML+%26+Intelligent+Systems" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -18,7 +18,35 @@
 - 📫 Reach me at **karanbhatt9900@gmail.com**  
 - 📄 Check out my [Resume](https://karan-bhatt-portfolio.netlify.app/resume.pdf)  
 
+--- -->
+
+<h1 align="center">Hi 👋, I'm Karan Bhatt</h1>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F75C7E&center=true&vCenter=true&width=500&lines=Backend+Engineer;Node.js+%7C+TypeScript+%7C+PostgreSQL+%7C+Redis;Building+Scalable+Backend+Systems;Distributed+Systems+%26+System+Design" alt="Typing SVG" />
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=prefierolasoledad&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
+  <a href="https://github.com/prefierolasoledad?tab=followers">
+    <img src="https://img.shields.io/github/followers/prefierolasoledad?label=Followers&style=social" alt="GitHub Followers"/>
+  </a>
+  <a href="https://karan-bhatt-portfolio.netlify.app/resume.pdf">
+    <img src="https://img.shields.io/badge/Resume-Download-blue?style=flat&logo=readme" alt="Resume"/>
+  </a>
+</p>
+
 ---
+
+### 👨‍💻 About Me
+
+- 🔭 SDE Intern at **GSX Solutions**, working on backend systems using Node.js, PostgreSQL, Redis, Docker, and WebSockets
+- 🚀 Co-founded **Adventroz** and led the engineering of its backend architecture and microservices
+- ⚙️ Interested in **Backend Engineering, Distributed Systems, Databases, and System Design**
+- 🌱 Currently deepening my knowledge of **PostgreSQL, Redis, Kafka, Distributed Systems, and AWS**
+- 🧠 400+ DSA problems solved on LeetCode
+- 📫 Reach me at **karanbhatt9900@gmail.com**
+- 📄 Check out my [Resume](https://karan-bhatt-portfolio.netlify.app/resume.pdf)  
 
 ### 🌐 Connect With Me
 <p align="left">
