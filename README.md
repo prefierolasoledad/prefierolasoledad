@@ -21,8 +21,6 @@
 
 <h3><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" alt="Technologist" width="32" align="center"/> About Me ｜ 自己紹介</h3>
 
-<img align="right" src="https://media.tenor.com/-raRPp4_uvUAAAAd/ayanokoji-classroom-of-the-elite.gif" alt="Ayanokoji Kiyotaka with glowing eyes" width="240"/>
-
 - 🔭 SDE Intern at [GSX Solutions](https://gsxsolutions.com), building backend systems with Node.js, PostgreSQL, Redis, Docker and WebSockets
 - 🚀 Co-founded [Adventroz](https://drive.google.com/file/d/1KqksVSekL3yrKpturye_wK6J0iHyDQue/view?usp=sharing), a travel platform, and led its backend architecture and microservices
 - 🎓 Preparing for a **Master's in AI/ML (NLP) in Japan**, starting October 2027
@@ -31,13 +29,11 @@
 - 🧠 400+ DSA problems solved on LeetCode
 - 📫 Reach me at **karanbhatt9900@gmail.com**
 
-<br clear="right"/>
-
 ---
 
 <h3><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Microscope.png" alt="Microscope" width="32" align="center"/> Currently Building ｜ 研究中</h3>
 
-<img align="right" src="https://media.tenor.com/Hft0Ev3JylEAAAAd/classroom-of-the-elite-youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu.gif" alt="Ayanokoji thinking with hands folded" width="240"/>
+<img align="right" src="./assets/ayanokoji-thinking.png" alt="Ayanokoji thinking with hands folded" width="220"/>
 
 **Tourism Translation for Indian Languages** &nbsp;·&nbsp; 🚧 *in progress*
 
@@ -133,5 +129,10 @@ Evaluating how well today's models translate tourism and cultural text into Indi
 <h3><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png" alt="High voltage" width="32" align="center"/> Core Focus ｜ 信念</h3>
 
 💡 I build backend systems that hold up in production, and I'm now pointing that same discipline at **NLP**: making language technology work for the languages and places that today's models handle worst.
+
+<p align="center">
+  <img src="https://media.tenor.com/AbDmIYybxkUAAAAd/bye-kiyotaka-ayanokouji.gif" alt="Ayanokoji says bye" width="300"/><br/>
+  <sub>またね！ Thanks for stopping by.</sub>
+</p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7b5cff,100:fe428e&height=120&section=footer" width="100%" alt=""/>
