@@ -135,7 +135,6 @@ Evaluating how well today's models translate tourism and cultural text into Indi
 <br clear="right"/>
 
 <p align="center">
-  <img src="https://media.tenor.com/AbDmIYybxkUAAAAd/bye-kiyotaka-ayanokouji.gif" alt="Ayanokoji says bye" width="300"/><br/>
   <sub>またね！ Thanks for stopping by.</sub>
 </p>
 
