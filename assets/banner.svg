@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="900" height="320" role="img" aria-label="An anime-style coder with headphones typing at a laptop, with Hello, Namaste and Konnichiwa appearing in a speech bubble and cherry blossoms falling" xmlns:c2pa="http://c2pa.org/manifest">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b1830"/>
+      <stop offset="1" stop-color="#141321"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#a9fef7" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#a9fef7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="moon" cx="0.4" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#fff6d6"/>
+      <stop offset="1" stop-color="#f8d847"/>
+    </radialGradient>
+    <clipPath id="frame"><rect width="900" height="320" rx="18"/></clipPath>
+    <path id="petal" d="M0 0 C4 -7 12 -7 14 0 C12 5 5 6 0 0 Z"/>
+  </defs>
+
+  <style>
+    text { font-family: "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", "Noto Sans Devanagari", "Noto Sans JP", sans-serif; }
+    .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
+
+    .intro { opacity: 0; animation: rise 0.9s ease-out forwards; }
+    .d1 { animation-delay: 0.2s; } .d2 { animation-delay: 0.5s; }
+    .d3 { animation-delay: 0.8s; } .d4 { animation-delay: 1.1s; }
+    @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+
+    .cursor { animation: blinkCursor 1s steps(1) infinite; }
+    @keyframes blinkCursor { 50% { opacity: 0; } }
+
+    .star { animation: twinkle 3s ease-in-out infinite; }
+    .s2 { animation-delay: 1s; } .s3 { animation-delay: 2s; }
+    @keyframes twinkle { 0%,100% { opacity: 0.25; } 50% { opacity: 1; } }
+
+    .head { transform-origin: 680px 214px; animation: bob 2.4s ease-in-out infinite; }
+    @keyframes bob { 0%,100% { transform: rotate(-2.5deg); } 50% { transform: rotate(2.5deg) translateY(1px); } }
+
+    .eye { transform-box: fill-box; transform-origin: center; animation: blink 4.2s infinite; }
+    @keyframes blink { 0%,93%,100% { transform: scaleY(1); } 95% { transform: scaleY(0.08); } }
+
+    .shoulders { animation: type 0.36s ease-in-out infinite alternate; }
+    @keyframes type { from { transform: translateY(0); } to { transform: translateY(2px); } }
+
+    .logo { animation: pulse 2.4s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% { opacity: 0.55; } 50% { opacity: 1; } }
+
+    .word { opacity: 0; animation: cycle 9s infinite; }
+    .w2 { animation-delay: 3s; } .w3 { animation-delay: 6s; }
+    @keyframes cycle { 0% { opacity: 0; transform: translateY(4px); } 4%,29% { opacity: 1; transform: none; } 33%,100% { opacity: 0; transform: translateY(-4px); } }
+
+    .glyph { opacity: 0; animation: float 6s ease-in infinite; }
+    .g2 { animation-delay: 1.5s; } .g3 { animation-delay: 3s; } .g4 { animation-delay: 4.5s; }
+    @keyframes float { 0% { opacity: 0; transform: translateY(0); } 15% { opacity: 0.9; } 80% { opacity: 0.6; } 100% { opacity: 0; transform: translateY(-90px); } }
+
+    .steam { animation: steam 3s ease-out infinite; opacity: 0; }
+    .st2 { animation-delay: 1.5s; }
+    @keyframes steam { 0% { opacity: 0; transform: translateY(6px); } 30% { opacity: 0.7; } 100% { opacity: 0; transform: translateY(-22px); } }
+
+    .fall { animation: fall linear infinite; }
+    @keyframes fall { from { transform: translate(0, -30px) rotate(0deg); } to { transform: translate(-90px, 360px) rotate(540deg); } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .head, .eye, .shoulders, .logo, .glyph, .steam, .fall, .star, .cursor { animation: none; }
+      .intro { animation: none; opacity: 1; }
+      .word { animation: none; }
+      .w1 { opacity: 1; }
+    }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="900" height="320" fill="url(#sky)"/>
+
+    <!-- stars and moon -->
+    <circle cx="845" cy="52" r="26" fill="url(#moon)" opacity="0.9"/>
+    <circle class="star" cx="470" cy="30" r="1.6" fill="#fff"/>
+    <circle class="star s2" cx="520" cy="96" r="1.2" fill="#fff"/>
+    <circle class="star s3" cx="780" cy="24" r="1.4" fill="#fff"/>
+    <circle class="star s2" cx="420" cy="120" r="1.1" fill="#fff"/>
+    <circle class="star" cx="880" cy="140" r="1.3" fill="#fff"/>
+    <circle class="star s3" cx="40" cy="30" r="1.2" fill="#fff"/>
+    <circle class="star s2" cx="300" cy="22" r="1.4" fill="#fff"/>
+
+    <!-- intro text -->
+    <text class="intro d1" x="52" y="104" font-size="20" fill="#a9fef7">Hi there, I'm</text>
+    <text class="intro d2" x="50" y="160" font-size="54" font-weight="800" fill="#fe428e" letter-spacing="-1">Karan Bhatt</text>
+    <text class="intro d3" x="52" y="200" font-size="21" font-weight="600" fill="#f8d847">Backend engineer, turning to NLP</text>
+    <g class="intro d4">
+      <text class="mono" x="52" y="240" font-size="14" fill="#c9c6e6">&gt; translating Indian languages, one token at a time</text>
+      <rect class="cursor" x="490" y="228" width="8" height="15" fill="#a9fef7"/>
+    </g>
+
+    <!-- speech bubble cycling greetings -->
+    <g transform="translate(486 40)">
+      <rect width="132" height="46" rx="14" fill="#fff" opacity="0.96"/>
+      <path d="M100 44 L118 62 L112 44 Z" fill="#fff" opacity="0.96"/>
+      <text class="word w1" x="66" y="30" font-size="19" font-weight="700" fill="#2b2a4a" text-anchor="middle">Hello!</text>
+      <text class="word w2" x="66" y="30" font-size="19" font-weight="700" fill="#2b2a4a" text-anchor="middle">नमस्ते!</text>
+      <text class="word w3" x="66" y="30" font-size="18" font-weight="700" fill="#2b2a4a" text-anchor="middle">こんにちは!</text>
+    </g>
+
+    <!-- floating glyphs -->
+    <text class="glyph" x="782" y="200" font-size="24" fill="#a9fef7">あ</text>
+    <text class="glyph g2" x="812" y="220" font-size="24" fill="#fe428e">अ</text>
+    <text class="glyph g3 mono" x="566" y="214" font-size="22" fill="#f8d847">{ }</text>
+    <text class="glyph g4" x="590" y="236" font-size="22" fill="#a9fef7">A</text>
+
+    <!-- character: body -->
+    <g class="shoulders">
+      <path d="M588 330 Q592 238 642 224 L718 224 Q768 238 772 330 Z" fill="#3b3b6d"/>
+      <path d="M652 224 L680 252 L708 224" fill="none" stroke="#2b2a4a" stroke-width="5" stroke-linecap="round"/>
+      <rect x="669" y="200" width="22" height="28" rx="6" fill="#f7d2b6"/>
+    </g>
+
+    <!-- character: head -->
+    <g class="head">
+      <!-- back hair -->
+      <ellipse cx="680" cy="138" rx="66" ry="62" fill="#2b2a4a"/>
+      <!-- face -->
+      <ellipse cx="680" cy="152" rx="58" ry="56" fill="#ffe2cc"/>
+      <!-- headphone band -->
+      <path d="M614 146 Q610 70 680 66 Q750 70 746 146" fill="none" stroke="#fe428e" stroke-width="9" stroke-linecap="round"/>
+      <!-- bangs -->
+      <path d="M620 146 Q616 92 662 84 Q704 76 736 100 Q750 120 742 148 L732 124 L720 140 L710 114 L697 138 L686 110 L673 136 L661 112 L649 140 L637 118 L628 146 Z" fill="#2b2a4a"/>
+      <path d="M672 86 Q676 56 698 62 Q684 70 690 86 Z" fill="#2b2a4a"/>
+      <!-- ear cups -->
+      <rect x="602" y="132" width="20" height="40" rx="9" fill="#fe428e"/>
+      <rect x="738" y="132" width="20" height="40" rx="9" fill="#fe428e"/>
+      <rect x="606" y="140" width="6" height="24" rx="3" fill="#ff8fb8"/>
+      <rect x="748" y="140" width="6" height="24" rx="3" fill="#ff8fb8"/>
+      <!-- brows -->
+      <path d="M646 140 Q656 135 666 139" fill="none" stroke="#2b2a4a" stroke-width="3" stroke-linecap="round"/>
+      <path d="M694 139 Q704 135 714 140" fill="none" stroke="#2b2a4a" stroke-width="3" stroke-linecap="round"/>
+      <!-- eyes -->
+      <g class="eye">
+        <ellipse cx="656" cy="160" rx="10" ry="13" fill="#2b2a4a"/>
+        <ellipse cx="656" cy="162" rx="7" ry="10" fill="#7b5cff"/>
+        <ellipse cx="656" cy="166" rx="5" ry="5" fill="#a9fef7" opacity="0.55"/>
+        <circle cx="652.5" cy="155" r="3.6" fill="#fff"/>
+        <circle cx="659" cy="166" r="1.6" fill="#fff"/>
+      </g>
+      <g class="eye">
+        <ellipse cx="704" cy="160" rx="10" ry="13" fill="#2b2a4a"/>
+        <ellipse cx="704" cy="162" rx="7" ry="10" fill="#7b5cff"/>
+        <ellipse cx="704" cy="166" rx="5" ry="5" fill="#a9fef7" opacity="0.55"/>
+        <circle cx="700.5" cy="155" r="3.6" fill="#fff"/>
+        <circle cx="707" cy="166" r="1.6" fill="#fff"/>
+      </g>
+      <!-- blush and mouth -->
+      <ellipse cx="642" cy="180" rx="9" ry="4.5" fill="#ff8fab" opacity="0.6"/>
+      <ellipse cx="718" cy="180" rx="9" ry="4.5" fill="#ff8fab" opacity="0.6"/>
+      <path d="M672 184 Q680 192 688 184" fill="none" stroke="#9a4a4a" stroke-width="2.6" stroke-linecap="round"/>
+    </g>
+
+    <!-- laptop (back of lid) and desk -->
+    <ellipse cx="680" cy="246" rx="110" ry="34" fill="url(#glow)"/>
+    <rect x="548" y="300" width="372" height="30" rx="8" fill="#24233a"/>
+    <rect x="606" y="226" width="148" height="80" rx="8" fill="#2e2d4a" stroke="#4b4a78" stroke-width="2"/>
+    <text class="logo mono" x="680" y="274" font-size="22" font-weight="700" fill="#a9fef7" text-anchor="middle">&lt;/&gt;</text>
+    <rect x="590" y="302" width="180" height="7" rx="3" fill="#4b4a78"/>
+
+    <!-- chai -->
+    <g transform="translate(792 268)">
+      <path class="steam" d="M8 -6 q-5 -7 0 -14 q5 -7 0 -14" fill="none" stroke="#c9c6e6" stroke-width="2" stroke-linecap="round"/>
+      <path class="steam st2" d="M18 -6 q-5 -7 0 -14 q5 -7 0 -14" fill="none" stroke="#c9c6e6" stroke-width="2" stroke-linecap="round"/>
+      <path d="M0 0 L28 0 L24 32 L4 32 Z" fill="#f8d847"/>
+      <path d="M27 6 q12 0 10 10 q-2 8 -12 6" fill="none" stroke="#f8d847" stroke-width="4"/>
+      <rect x="2" y="2" width="24" height="5" fill="#c08a4a"/>
+    </g>
+
+    <!-- falling petals -->
+    <g transform="translate(120 0)"><use href="#petal" class="fall" fill="#ffb7c5" style="animation-duration: 11s; animation-delay: -2s"/></g>
+    <g transform="translate(260 0)"><use href="#petal" class="fall" fill="#ffc9d6" style="animation-duration: 13s; animation-delay: -7s"/></g>
+    <g transform="translate(400 0)"><use href="#petal" class="fall" fill="#ffb7c5" style="animation-duration: 10s; animation-delay: -4s"/></g>
+    <g transform="translate(560 0)"><use href="#petal" class="fall" fill="#ffd6e0" style="animation-duration: 12s; animation-delay: -9s"/></g>
+    <g transform="translate(700 0)"><use href="#petal" class="fall" fill="#ffb7c5" style="animation-duration: 9s; animation-delay: -1s"/></g>
+    <g transform="translate(840 0)"><use href="#petal" class="fall" fill="#ffc9d6" style="animation-duration: 14s; animation-delay: -5s"/></g>
+    <g transform="translate(920 0)"><use href="#petal" class="fall" fill="#ffd6e0" style="animation-duration: 11s; animation-delay: -8s"/></g>
+  </g>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo3NzRjYWEzNy1iMDQ3LTRkNDktOGI5ZS05NTk2ZDFkNmMyZmUAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaEi+HumOOkAvZCOrs58K5SsAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpkYWZiZWU3NS04ZmQzLTQzNDItYjAyYi1lNTFlYzhlMjRkZDdscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNo8EL389JJdbqfldEB8A7BIwAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggSzaO16l/Dq73XGj1ps6eIHhDFBPYIBRI5iK33QG/o9CkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaBnSiTLibYHdWWlSNbO/HhAAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYICXKzd92k3fSE1o9zyzLCZfXy43DOsZpA4z7rJIGblO2ZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GSp/Zmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjc3NGNhYTM3LWIwNDctNGQ0OS04YjllLTk1OTZkMWQ2YzJmZS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjlmYmYzYjQ2LTMzNWMtNDU1My1hOTlhLWZhNjYzNDA0YzE0YnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBLNo7XqX8OrvdcaPWmzp4geEMUE9ggFEjmIrfdAb+j0KJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggX7AQnMtU3yy+AJqMgRnSpWlBZ94GWRsPDnNy4lCLTfOiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggElspxBE96wfQGpiKbplnaxjj1qsnVM4NYSbRZExiWT10Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQJLtDVfDIwbuqvMQDs6N0uLLgUsCAd7y13JTKCCODp0KIdrhzB+nMZ3BGpNS2eYnjcYxtRNsLScReV+JUfcfsHs=</c2pa:manifest></metadata></svg>
