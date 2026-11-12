@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F75C7E&center=true&vCenter=true&width=560&lines=Backend+Engineer+%E2%86%92+NLP+Researcher;Node.js+%7C+TypeScript+%7C+PostgreSQL+%7C+Kafka;Machine+Translation+for+Indian+Languages;Next+stop%3A+Master's+in+Japan+(Oct+2027)" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F75C7E&center=true&vCenter=true&width=560&lines=Backend+Engineer+%E2%86%92+NLP+Researcher;Node.js+%7C+TypeScript+%7C+PostgreSQL+%7C+Kafka;Machine+Translation+for+Indian+Languages" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -23,7 +23,6 @@
 
 - 🔭 SDE Intern at [GSX Solutions](https://gsxsolutions.com), building backend systems with Node.js, PostgreSQL, Redis, Docker and WebSockets
 - 🚀 Co-founded [Adventroz](https://drive.google.com/file/d/1KqksVSekL3yrKpturye_wK6J0iHyDQue/view?usp=sharing), a travel platform, and led its backend architecture and microservices
-- 🎓 Preparing for a **Master's in AI/ML (NLP) in Japan**, starting October 2027
 - 🌏 Research interest: **machine translation for low-resource Indian languages**, especially tourism and cultural text
 - 🗾 Learning Japanese (日本語) alongside the ML work
 - 🧠 400+ DSA problems solved on LeetCode
