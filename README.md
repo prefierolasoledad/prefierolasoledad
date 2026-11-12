@@ -128,7 +128,11 @@ Evaluating how well today's models translate tourism and cultural text into Indi
 
 <h3><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png" alt="High voltage" width="32" align="center"/> Core Focus ｜ 信念</h3>
 
+<img align="right" src="./assets/makise-kurisu.png" alt="Makise Kurisu from Steins;Gate" width="220"/>
+
 💡 I build backend systems that hold up in production, and I'm now pointing that same discipline at **NLP**: making language technology work for the languages and places that today's models handle worst.
+
+<br clear="right"/>
 
 <p align="center">
   <img src="https://media.tenor.com/AbDmIYybxkUAAAAd/bye-kiyotaka-ayanokouji.gif" alt="Ayanokoji says bye" width="300"/><br/>
