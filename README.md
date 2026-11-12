@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F75C7E&center=true&vCenter=true&width=560&lines=Backend+Engineer+%E2%86%92+NLP+Researcher;Node.js+%7C+TypeScript+%7C+PostgreSQL+%7C+Kafka;Machine+Translation+for+Indian+Languages;Next+stop%3A+Master's+in+Japan+(Oct+2027);Ayanokoji+mode%3A+calm%2C+calculated%2C+shipping" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F75C7E&center=true&vCenter=true&width=560&lines=Backend+Engineer+%E2%86%92+NLP+Researcher;Node.js+%7C+TypeScript+%7C+PostgreSQL+%7C+Kafka;Machine+Translation+for+Indian+Languages;Next+stop%3A+Master's+in+Japan+(Oct+2027)" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -15,7 +15,6 @@
     <img src="https://img.shields.io/badge/Resume-Download-blue?style=flat&logo=readme" alt="Resume"/>
   </a>
   <img src="https://img.shields.io/badge/日本語-Learning-BC002D?style=flat" alt="Learning Japanese"/>
-  <img src="https://img.shields.io/badge/オタク-Classroom_of_the_Elite-7b5cff?style=flat" alt="Otaku: Classroom of the Elite"/>
 </p>
 
 ---
@@ -105,25 +104,6 @@ Evaluating how well today's models translate tourism and cultural text into Indi
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=prefierolasoledad&theme=radical" alt="GitHub Streak" width="395"/>
-  <img src="https://media.tenor.com/OnI4rZbF3DYAAAAd/kiyotaka-ayanokoji-you-zitsu.gif" alt="Ayanokoji: Givin' up? Just like that?" width="300"/>
-</p>
-
----
-
-<h3><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Fox.png" alt="Fox" width="32" align="center"/> Otaku Corner ｜ オタクの部屋</h3>
-
-<p align="center">
-  <img src="https://media.tenor.com/1YzS-mp-a3kAAAAd/ayanokoji-kiyotaka-kiyotaka-ayanokoji.gif" alt="Ayanokoji Kiyotaka in chains" width="420"/>
-</p>
-
-<p align="center">
-  <em>"In this world, winning is everything. As long as I win in the end, that's all that matters."</em><br/>
-  <sub>— 綾小路 清隆 (Ayanokōji Kiyotaka), <b>Classroom of the Elite</b> ｜ ようこそ実力至上主義の教室へ</sub>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Favourite_Anime-Classroom_of_the_Elite-c23a83?style=for-the-badge" alt="Favourite anime: Classroom of the Elite"/>
-  <img src="https://img.shields.io/badge/Favourite_Character-綾小路_清隆-7b5cff?style=for-the-badge" alt="Favourite character: Ayanokoji Kiyotaka"/>
 </p>
 
 ---
@@ -152,15 +132,6 @@ Evaluating how well today's models translate tourism and cultural text into Indi
 
 <h3><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png" alt="High voltage" width="32" align="center"/> Core Focus ｜ 信念</h3>
 
-<img align="right" src="https://media.tenor.com/mo_WawKCvYcAAAAd/ayanokoji-kiyotaka-ayanokoji.gif" alt="Ayanokoji: Hm, it's just that simple" width="260"/>
-
 💡 I build backend systems that hold up in production, and I'm now pointing that same discipline at **NLP**: making language technology work for the languages and places that today's models handle worst.
-
-<br clear="right"/>
-
-<p align="center">
-  <img src="https://media.tenor.com/AbDmIYybxkUAAAAd/bye-kiyotaka-ayanokouji.gif" alt="Ayanokoji says bye" width="300"/><br/>
-  <sub>またね！ Thanks for stopping by.</sub>
-</p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7b5cff,100:fe428e&height=120&section=footer" width="100%" alt=""/>
